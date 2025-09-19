@@ -1,0 +1,13 @@
+[default]
+
+[sshd]
+enabled = true
+mode   = aggressive
+port = ssh
+maxretry = 3
+findtime = 600
+bantime = 3600
+ignoreip = 127.0.0.1
+port    = ssh
+logpath = %(sshd_log)s
+backend = %(sshd_backend)s
