@@ -3,7 +3,6 @@
 [sshd]
 enabled = true
 mode   = aggressive
-port = ssh
 maxretry = 3
 findtime = 600
 bantime = 3600
